@@ -4,7 +4,10 @@ Created on Tue Jun 13 09:37:37 2017
 由双均线策略修改得到的箱型策略, box theory
 三个买入点：20日>60日；收盘价>60日；刚刚盈利7%平仓之后
 两个卖出点：亏损1%；盈利3%
-@author: LH
+Box theory stems from dual MA(moving average) strategy.
+entry points: price of 20-day MA > 60-day MAC; current closing price > price of 60-day MA; closing a position after 7% profit
+exit points: loss 1%; gain 3%
+@author: Jeff
 """
 import numpy as np
 import pandas as pd
