@@ -11,11 +11,7 @@ exit points: loss 1%; gain 3%
 """
 import numpy as np
 import pandas as pd
-import time
-import os
-import pickle
-
-import math
+import time,os,pickle,math
 
 start_time = time.time()
 def MovingAverage(number,closing_price):
